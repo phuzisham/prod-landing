@@ -1,0 +1,53 @@
+:root {
+    --headerBack: #0A2012;
+    --headerText: #44A4C4;
+    --brown: #5C4B28;
+    --bodyBack: #AFCBD1;
+  }
+  
+  * {
+    margin: 0;
+    font-family: sans-serif;
+    letter-spacing: 1.7px;
+    line-height: 20px;
+  }
+  
+  body {
+    background-color: var(--bodyBack);
+    color: var(--brown);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .nav-container {
+    background: var(--headerBack);
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .header-text {
+    font-family: 'Marck Script';
+    font-weight: bold;
+    color: var(--headerText);
+  }
+  
+  #empty-space {
+    height: 75px;
+  }
+  
+  footer {
+    padding: 10px;
+    padding-top: 18px;
+    color: white;
+    background-color: var(--brown);
+  }
